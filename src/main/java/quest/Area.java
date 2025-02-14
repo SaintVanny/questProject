@@ -1,4 +1,10 @@
 package quest;
 
-public interface Area {
+public enum Area {
+    BADLANDS,
+    FOREST,
+    CAVE,
+    DEEPFOREST,
+    WATERFALL,
+    PORTAL;
 }
